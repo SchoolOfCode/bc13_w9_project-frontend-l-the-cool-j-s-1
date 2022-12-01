@@ -1,78 +1,77 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 :root {
-  --main-color: #569099;
-  --secondary-color: #f6d809;
-  --tertiary-color: #030303;
+	--main-color: #569099;
+	--secondary-color: #f6d809;
+	--tertiary-color: #030303;
 
-  --text-color: wheat
+	--text-color: wheat;
 }
 
-
 .interview-div {
-  background-color: var(--main-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-  border-left: 2px solid var(--tertiary-color);
-  font-family: Caveat, cursive;
+	background-color: var(--main-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+	border-left: 2px solid var(--tertiary-color);
+	font-family: Caveat, cursive;
 }
 
 .header-div {
-  border-bottom: solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f6d809;
-  width: 100%;
+	border-bottom: solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f6d809;
+	width: 100%;
 }
 /* added */
 .header-div h1 {
-  overflow-wrap: break-word;
-  color:  #030303;
-  font-size: 62px;
+	overflow-wrap: break-word;
+	color: #030303;
+	font-size: 62px;
 }
 .header-text {
-  font-size: 62px;
-  font-weight: 100;
+	font-size: 62px;
+	font-weight: 100;
 }
 
 .prep-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0 30px;
-  height: 100%;
-  width: 100%;
-  border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 30px;
+	height: 100%;
+	width: 100%;
+	border: 2px solid black;
 }
 
 .prep-text {
-  font-size: 46px;
-  font-weight: 100;
-  color: var(--text-color);
+	font-size: 46px;
+	font-weight: bold;
+	color: var(--text-color);
 }
 
 .star-one {
-  max-height: 100px;
-  min-height: 30px;
-  padding-left: 10px;
+	max-height: 100px;
+	min-height: 30px;
+	padding-left: 10px;
 }
 
 .star-two {
-  max-height: 100px;
-  min-height: 30px;
-  padding-left: 10px;
+	max-height: 100px;
+	min-height: 30px;
+	padding-left: 10px;
 }
 
 /* mobile */
 
 @media (max-width: 768px) {
-  .interview-div {
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-  }
+	.interview-div {
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
 }
